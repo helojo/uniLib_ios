@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		05F85A0AA1DDCC54EEAC1243 /* Pods-uniLib_ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniLib_ios_Tests.release.xcconfig"; path = "Target Support Files/Pods-uniLib_ios_Tests/Pods-uniLib_ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		405E871D2D90E18F426EB3C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		405E871D2D90E18F426EB3C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		48637A40A43BAC045B136F16 /* Pods-uniLib_ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniLib_ios_Tests.debug.xcconfig"; path = "Target Support Files/Pods-uniLib_ios_Tests/Pods-uniLib_ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B5C5F7BB6415563A6CB5C3B /* Pods-uniLib_ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniLib_ios_Example.release.xcconfig"; path = "Target Support Files/Pods-uniLib_ios_Example/Pods-uniLib_ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* uniLib_ios_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uniLib_ios_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CF3C481D3FA7425B3B31A8D /* Pods_uniLib_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uniLib_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A13851C68805BF95D7E937C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B201B8C5F4BE8E42EA56C59B /* uniLib_ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = uniLib_ios.podspec; path = ../uniLib_ios.podspec; sourceTree = "<group>"; };
+		A13851C68805BF95D7E937C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B201B8C5F4BE8E42EA56C59B /* uniLib_ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = uniLib_ios.podspec; path = ../uniLib_ios.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE4F6960CB053FE360EB7940 /* Pods_uniLib_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uniLib_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E2619947CD7B549A30274A /* Pods-uniLib_ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniLib_ios_Example.debug.xcconfig"; path = "Target Support Files/Pods-uniLib_ios_Example/Pods-uniLib_ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				48637A40A43BAC045B136F16 /* Pods-uniLib_ios_Tests.debug.xcconfig */,
 				05F85A0AA1DDCC54EEAC1243 /* Pods-uniLib_ios_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

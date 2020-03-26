@@ -1,0 +1,6 @@
+framework module uniLib_ios {
+  umbrella header "uniLib_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "uniLib_ios",
+  "version": "0.1.0",
+  "summary": "一个跨平台工具sdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/helojo/uniLib_ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "admin@helojo.com": "helojo@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/helojo/uniLib_ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "uniLib_ios/Classes/**/*"
+}
